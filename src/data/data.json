@@ -1,14 +1,14 @@
 [
     {
         "id": 1,
-        "title": "John Doe",
+        "title": "the School of Node",
         "description": "This is the description of course",
-        "image": "https://via.placeholder.com/150",
+        "image": "https://unsplash.com/photos/a-man-is-holding-something-in-his-hands-4AG-k7KeNOg",
         "modules": [
             {
                 "title": "Module 1",
                 "description": "This is the description of module 1",
-                "image": "https://via.placeholder.com/150",
+                "image": "https://unsplash.com/photos/a-man-is-holding-something-in-his-hands-4AG-k7KeNOg",
                 "module-content": [
                     {
                         "title": "day 1",
