@@ -13,7 +13,7 @@ const Settings = () => {
   return (
     <DefaultLayout>
       <div className="mx-auto max-w-270">
-        <Breadcrumb pageName="Settings" />
+        <Breadcrumb pageName="Account Settings" />
 
         <div className="grid grid-cols-5 gap-8">
           <div className="col-span-5 xl:col-span-3">
@@ -64,8 +64,8 @@ const Settings = () => {
                           type="text"
                           name="fullName"
                           id="fullName"
-                          placeholder="Devid Jhon"
-                          defaultValue="Devid Jhon"
+                          placeholder="Joe Blogs"
+                          defaultValue="Joe Blogs"
                         />
                       </div>
                     </div>
@@ -82,8 +82,8 @@ const Settings = () => {
                         type="text"
                         name="phoneNumber"
                         id="phoneNumber"
-                        placeholder="+990 3343 7865"
-                        defaultValue="+990 3343 7865"
+                        placeholder="+44 0123 456 789"
+                        defaultValue="+44 0123 456 789"
                       />
                     </div>
                   </div>
@@ -126,8 +126,8 @@ const Settings = () => {
                         type="email"
                         name="emailAddress"
                         id="emailAddress"
-                        placeholder="devidjond45@gmail.com"
-                        defaultValue="devidjond45@gmail.com"
+                        placeholder="joeblogs@email.com"
+                        defaultValue="joeblogs@email.com"
                       />
                     </div>
                   </div>
@@ -144,8 +144,8 @@ const Settings = () => {
                       type="text"
                       name="Username"
                       id="Username"
-                      placeholder="devidjhon24"
-                      defaultValue="devidjhon24"
+                      placeholder="joeblogs16"
+                      defaultValue="joeblogs16"
                     />
                   </div>
 
@@ -229,7 +229,7 @@ const Settings = () => {
                   <div className="mb-4 flex items-center gap-3">
                     <div className="h-14 w-14 rounded-full">
                       <Image
-                        src={"/images/user/user-03.png"}
+                        src={"/images/user/user-01.png"}
                         width={55}
                         height={55}
                         alt="User"
