@@ -3,13 +3,18 @@ import Breadcrumb from "../Breadcrumbs/Breadcrumb";
 import myData from "../../data/data.json";
 import courseImage from "./courseImage.jpg";
 
-const Calendar = () => {
+const HomePage = () => {
   const modules = myData[0].modules;
   return (
-    <div className="">
-      <Breadcrumb pageName="Calendar" />
-      {myData[0].title && <div>Welcome to {myData[0].title}</div>}
-      {myData[0].description && <div>{myData[0].description}</div>}
+    <div className="container px-20">
+      <Breadcrumb pageName="HomePage" />
+
+      {myData[0].title && (
+        <div className="my-8 text-7xl">Welcome to {myData[0].title}</div>
+      )}
+      {myData[0].description && (
+        <div className="mb-8">{myData[0].description}</div>
+      )}
       {myData[0].image && (
         <Image
           src={courseImage}
@@ -35,4 +40,4 @@ const Calendar = () => {
   );
 };
 
-export default Calendar;
+export default HomePage;
