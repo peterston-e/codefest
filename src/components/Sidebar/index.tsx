@@ -7,6 +7,7 @@ import Image from "next/image";
 import SidebarItem from "@/components/Sidebar/SidebarItem";
 import ClickOutside from "@/components/ClickOutside";
 import useLocalStorage from "@/hooks/useLocalStorage";
+import jsonData from "@/data/data.json"
 
 interface SidebarProps {
   sidebarOpen: boolean;
@@ -15,7 +16,7 @@ interface SidebarProps {
 
 const menuGroups = [
   {
-    name: "MENU",
+    name: `${jsonData[0].title}`,
     menuItems: [
       {
         icon: (
