@@ -126,7 +126,7 @@ const menuGroups = [
           </svg>
         ),
         label: "Add new resource",
-        route: "#",
+        route: "/add",
       },
       {
         icon: (
