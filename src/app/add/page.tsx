@@ -67,9 +67,10 @@ const AddResource = () => {
                         name="resourceModule"
                         id="resourceModule"
                         required
+                        defaultValue=""
                       >
-                        <option value="" selected disabled>
-                          Select the Module
+                        <option value="" disabled>
+                          Please Select the Module
                         </option>
                         {jsonData[0].modules.map((module, index) => {
                           const mapKey = `${module.title}-${index}`;
@@ -392,7 +393,7 @@ const AddResource = () => {
 
                   <div className="flex justify-end gap-4.5">
                     <button
-                      className="flex justify-center rounded border border-stroke px-6 py-2 font-medium text-black hover:shadow-1 dark:border-strokedark dark:text-white"
+                      className="flex flex-col justify-center rounded border border-stroke px-6 py-2 font-medium text-black hover:shadow-1 dark:border-strokedark dark:text-white"
                       type="reset"
                     >
                       Cancel
