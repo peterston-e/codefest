@@ -18,7 +18,7 @@ export async function POST(request: Request) {
         title: formData.videoTitle,
         link: formData.videoLink,
         description: formData.videoDescription,
-        "further-details": formData.videoText, //"further-details":
+        "further-details": formData.videoText,
       },
     ],
     text: formData.resourceText,
@@ -27,7 +27,7 @@ export async function POST(request: Request) {
   // read existing data
   let existingData = [];
   if (fs.existsSync(filePath)) {
-    const fileData = fs.readFileSync(filePath, "utf-8"); // might need to add utf8
+    const fileData = fs.readFileSync(filePath, "utf-8"); 
     existingData = JSON.parse(fileData);
   }
 
@@ -81,8 +81,6 @@ export async function POST(request: Request) {
       { status: 404 },
     );
   }
-
-  // existingData.push(formData);
 
   fs.writeFileSync(filePath, JSON.stringify(existingData, null, 2));
 

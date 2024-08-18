@@ -1,18 +1,18 @@
-import ECommerce from "@/components/Dashboard/E-commerce";
-import { Metadata } from "next";
+"use client";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
 
-export const metadata: Metadata = {
-  title:
-    "ResourceAdmin",
-  description: "ResourceAdmin - your centralized dashboard for seamlessly managing and organizing both school-endorsed and personal resources in one efficient platform.",
-};
-
 export default function Home() {
+  // Define a function that matches the expected type
+  const handleSetSelectedResource = (resource: any) => {
+    // set resource as null ad DefaultLayout expects a resource
+    resource = null;
+    console.log(resource);
+  };
   return (
     <>
-      <DefaultLayout>
-        <ECommerce />
+      <DefaultLayout setSelectedResource={handleSetSelectedResource}>
+        {/* <ECommerce /> */}
+        <h1>Hello World</h1>
       </DefaultLayout>
     </>
   );

@@ -2,15 +2,27 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const SidebarItem = ({ item, level = 0, pageName, setPageName }: any) => {
+const SidebarItem = ({
+  onResourceSelect,
+  item,
+  level = 0,
+  pageName,
+  setPageName,
+}: any) => {
   // Track which items are open
-  const [openItems, setOpenItems] = useState<string[]>([]); 
+  const [openItems, setOpenItems] = useState<string[]>([]);
   const pathname = usePathname();
 
   const handleClick = () => {
     const updatedPageName =
       pageName !== item.label.toLowerCase() ? item.label.toLowerCase() : "";
     setPageName(updatedPageName);
+
+    // If the item is a resource (every resource requires description not to be empty), trigger the onResourceSelect callback
+    if (item.description && onResourceSelect) {
+      console.log(item);
+      onResourceSelect(item);
+    }
   };
 
   const toggleItem = (label: string) => {
@@ -41,7 +53,8 @@ const SidebarItem = ({ item, level = 0, pageName, setPageName }: any) => {
           if (item.children) toggleItem(item.label);
         }}
         // increase padding for nested items and background for the module (level 0)
-        className={`px-${(level * 4)+4} ${isItemActive ? "bg-graydark dark:bg-meta-4" : ""} ${level === 0? "bg-primary dark:bg-meta-4" : ""} group relative flex items-center gap-2.5 rounded-sm py-2 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4`}
+        className={`px-${level * 4 + 4} ${isItemActive ? "bg-graydark dark:bg-meta-4" : ""} ${level === 0 ? "bg-primary dark:bg-meta-4" : ""} group relative
+ flex items-center gap-2.5 rounded-sm py-2 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4`}
       >
         {item.icon}
         {item.label}
@@ -74,9 +87,10 @@ const SidebarItem = ({ item, level = 0, pageName, setPageName }: any) => {
                 key={child.label}
                 item={child}
                 // increase padding for nested items
-                level={level + 1} 
+                level={level + 1}
                 pageName={pageName}
                 setPageName={setPageName}
+                onResourceSelect={onResourceSelect}
               />
             ))}
           </ul>
