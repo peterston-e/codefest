@@ -37,18 +37,20 @@ const menuGroups = [
         label: "Dashboard",
         route: "/calendar",
       },
-      ...jsonData[0].modules.map(module => ({
+      ...jsonData[0].modules.map((module) => ({
         label: module.title,
-        route: "#",
-        children: module["module-content"].map(content => ({
+        route: "/resource",
+        children: module["module-content"].map((content) => ({
           label: content.title,
           route: "#",
-          children: content["resources"] ? content["resources"].map(item => ({
-            label: item.title,
-            route: "#",
-        })) : null,
-      }))
-    })),
+          children: content["resources"]
+            ? content["resources"].map((item) => ({
+                label: item.title,
+                route: "#",
+              }))
+            : null,
+        })),
+      })),
     ],
   },
   {
