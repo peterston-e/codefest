@@ -1,19 +1,20 @@
+'use client';
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
-import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
 
-export const metadata: Metadata = {
-  title:
-    "ResourceAdmin",
-  description: "ResourceAdmin - your centralized dashboard for seamlessly managing and organizing both school-endorsed and personal resources in one efficient platform.",
-};
-
 const SignIn: React.FC = () => {
+  // Define a function that matches the expected type
+  const handleSetSelectedResource = (resource: any) => {
+    // set resource as null as DefaultLayout expects a resource
+    resource = null;
+    console.log(resource);
+  };
+
   return (
-    <DefaultLayout>
+    <DefaultLayout setSelectedResource={handleSetSelectedResource}>
       <Breadcrumb pageName="Sign In" />
 
       <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">

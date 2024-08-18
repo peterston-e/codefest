@@ -15,24 +15,26 @@ const HomePage = () => {
       {myData[0].description && (
         <div className="mb-8">{myData[0].description}</div>
       )}
-      {myData[0].image && (
-        <Image
-          src={courseImage}
-          alt={myData[0].title || "Calendar image"}
-          width={300} // Adjust based on your image size
-          height={300} // Adjust based on your image size
-        />
-      )}
+
       {modules && (
         <div>
-          <h2>Modules</h2>
           <ul>
+          <div className="mb-5.5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5.5">
             {modules.map((module, index) => (
               <li key={index}>
-                <h3>{module.title}</h3>
-                <p>{module.description}</p>
+                {myData[0].image && (
+                  <Image
+                    src={courseImage}
+                    alt={myData[0].title || "Module image"}
+                    width={300} 
+                    height={300} 
+                  />
+                )}
+                <h3 className="text-title-md font-bold text-primary py-4">{module.title}</h3>
+                <p className="text-md text-black dark:text-white">{module.description}</p>
               </li>
             ))}
+            </div>
           </ul>
         </div>
       )}
