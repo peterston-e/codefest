@@ -2,7 +2,7 @@
 import HomePage from "@/components/HomePage";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
 
-const CalendarPage = () => {
+const Home = () => {
   // Define a function that matches the expected type
   const handleSetSelectedResource = (resource: any) => {
     // set resource as null ad DefaultLayout expects a resource
@@ -16,4 +16,4 @@ const CalendarPage = () => {
   );
 };
 
-export default CalendarPage;
+export default Home;

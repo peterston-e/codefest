@@ -21,7 +21,7 @@ const SignUp: React.FC = () => {
         <div className="flex flex-wrap items-center">
           <div className="hidden w-full xl:block xl:w-1/2">
             <div className="px-26 py-17.5 text-center">
-              <Link className="mb-5.5 inline-block" href="/calendar">
+              <Link className="mb-5.5 inline-block" href="/home">
                 <Image
                   className="hidden dark:block"
                   src={"/images/logo/logo.svg"}
