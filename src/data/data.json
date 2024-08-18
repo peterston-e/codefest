@@ -1,505 +1,475 @@
 [
-    {
-        "id": 1,
-        "title": "the School of Node",
-        "description": "As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In the following 'hello world' example, many connections can be handled concurrently. Upon each connection, the callback is fired, but if there is no work to be done, Node.js will sleep.",
+  {
+    "id": 1,
+    "title": "the School of Node",
+    "description": "As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In the following 'hello world' example, many connections can be handled concurrently. Upon each connection, the callback is fired, but if there is no work to be done, Node.js will sleep.",
+    "image": "https://unsplash.com/photos/a-man-is-holding-something-in-his-hands-4AG-k7KeNOg",
+    "modules": [
+      {
+        "title": "Onboarding",
+        "description": "This is the description of module 1",
         "image": "https://unsplash.com/photos/a-man-is-holding-something-in-his-hands-4AG-k7KeNOg",
-        "modules": [
-            {
-                "title": "Onboarding",
-                "description": "This is the description of module 1",
-                "image": "https://unsplash.com/photos/a-man-is-holding-something-in-his-hands-4AG-k7KeNOg",
-                "module-content": [
-                    {
-                        "title": "Day 1",
-                        "description": "This is the description of day 1",
-                        "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                        "image": "https://via.placeholder.com/150",
-                        "resources": [
-                            {
-                                "title": "Resource 1",
-                                "description": "This is the description of resource 1",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 1"
-                            },
-                            {
-                                "title": "Resource 2",
-                                "description": "This is the description of resource 2",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 2"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Day 2",
-                        "description": "This is the description of lesson 2",
-                        "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4"
-                    },
-                    {
-                        "title": "Custom resources",
-                        "description": "This is the description of custom resources",
-                        "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                        "image": "https://via.placeholder.com/150",
-                        "resources": [
-                            {
-                                "title": "Resource 1",
-                                "description": "This is the description of resource 1",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 1"
-                            },
-                            {
-                                "title": "Resource 2",
-                                "description": "This is the description of resource 2",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 2"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "title": "Front-end",
-                "description": "This is the description of module 3",
+        "module-content": [
+          {
+            "title": "Day 1",
+            "description": "This is the description of day 1",
+            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+            "image": "https://via.placeholder.com/150",
+            "resources": [
+              {
+                "title": "Resource 1",
+                "description": "This is the description of resource 1",
+                "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
-                "module-content": [
-                    {
-                        "title": "Day 1",
-                        "description": "This is the description of day 1",
-                        "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                        "image": "https://via.placeholder.com/150",
-                        "resources": [
-                            {
-                                "title": "Resource 1",
-                                "description": "This is the description of resource 1",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 1"
-                            },
-                            {
-                                "title": "Resource 2",
-                                "description": "This is the description of resource 2",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 2"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Day 2",
-                        "description": "This is the description of lesson 2",
-                        "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4"
-                    },
-                    {
-                        "title": "Custom resources",
-                        "description": "This is the description of custom resources",
-                        "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                        "image": "https://via.placeholder.com/150",
-                        "resources": [
-                            {
-                                "title": "Resource 1",
-                                "description": "This is the description of resource 1",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 1"
-                            },
-                            {
-                                "title": "Resource 2",
-                                "description": "This is the description of resource 2",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 2"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "title": "Back-end",
-                "description": "This is the description of module 3",
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 1"
+              },
+              {
+                "title": "Resource 2",
+                "description": "This is the description of resource 2",
+                "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
-                "module-content": [
-                    {
-                        "title": "Day 1",
-                        "description": "This is the description of day 1",
-                        "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                        "image": "https://via.placeholder.com/150",
-                        "resources": [
-                            {
-                                "title": "Resource 1",
-                                "description": "This is the description of resource 1",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 1"
-                            },
-                            {
-                                "title": "Resource 2",
-                                "description": "This is the description of resource 2",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 2"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Day 2",
-                        "description": "This is the description of lesson 2",
-                        "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4"
-                    },
-                    {
-                        "title": "Custom resources",
-                        "description": "This is the description of custom resources",
-                        "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                        "image": "https://via.placeholder.com/150",
-                        "resources": [
-                            {
-                                "title": "Resource 1",
-                                "description": "This is the description of resource 1",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 1"
-                            },
-                            {
-                                "title": "Resource 2",
-                                "description": "This is the description of resource 2",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 2"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "title": "Databases",
-                "description": "This is the description of module 4",
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 2"
+              }
+            ]
+          },
+          {
+            "title": "Day 2",
+            "description": "This is the description of lesson 2",
+            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4"
+          },
+          {
+            "title": "Day 3",
+            "description": "This is the description of day 3",
+            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+            "image": "https://via.placeholder.com/150"
+          },
+          {
+            "title": "Day 4",
+            "description": "This is the description of day 4",
+            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+            "image": "https://via.placeholder.com/150"
+          },
+          {
+            "title": "Day 5",
+            "description": "This is the description of day 5",
+            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+            "image": "https://via.placeholder.com/150"
+          },
+          {
+            "title": "Custom resources",
+            "description": "This is the description of custom resources",
+            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+            "image": "https://via.placeholder.com/150",
+            "resources": [
+              {
+                "title": "Resource 1",
+                "description": "This is the description of resource 1",
+                "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
-                "module-content": [
-                    {
-                        "title": "Day 1",
-                        "description": "This is the description of day 1",
-                        "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                        "image": "https://via.placeholder.com/150",
-                        "resources": [
-                            {
-                                "title": "Resource 1",
-                                "description": "This is the description of resource 1",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 1"
-                            },
-                            {
-                                "title": "Resource 2",
-                                "description": "This is the description of resource 2",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 2"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Day 2",
-                        "description": "This is the description of lesson 2",
-                        "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4"
-                    },
-                    {
-                        "title": "Custom resources",
-                        "description": "This is the description of custom resources",
-                        "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                        "image": "https://via.placeholder.com/150",
-                        "resources": [
-                            {
-                                "title": "Resource 1",
-                                "description": "This is the description of resource 1",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 1"
-                            },
-                            {
-                                "title": "Resource 2",
-                                "description": "This is the description of resource 2",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 2"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "title": "Own resources",
-                "description": "This is the description of own resources 3",
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 1"
+              },
+              {
+                "title": "Resource 2",
+                "description": "This is the description of resource 2",
+                "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
-                "module-content": [
-                    {
-                        "title": "Folder 1",
-                        "description": "This is the description of custom resources",
-                        "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                        "image": "https://via.placeholder.com/150",
-                        "resources": [
-                            {
-                                "title": "Resource 1",
-                                "description": "This is the description of resource 1",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 1"
-                            },
-                            {
-                                "title": "Resource 2",
-                                "description": "This is the description of resource 2",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 2"
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Folder 2",
-                        "description": "This is the description of custom resources",
-                        "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                        "image": "https://via.placeholder.com/150",
-                        "resources": [
-                            {
-                                "title": "Resource 1",
-                                "description": "This is the description of resource 1",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 1"
-                            },
-                            {
-                                "title": "Resource 2",
-                                "description": "This is the description of resource 2",
-                                "links": [
-                                    "link1",
-                                    "link2"
-                                ],
-                                "image": "https://via.placeholder.com/150",
-                                "videos": [
-                                    {
-                                        "title": "video 1",
-                                        "description": "This is the description of video 1",
-                                        "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                                        "further-details": "if video needs text"
-                                    }
-                                ],
-                                "text": "This is the text of resource 2"
-                            }
-                        ]
-                    }
-                ]
-            }
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 2"
+              }
+            ]
+          }
         ]
-    }
+      },
+      {
+        "title": "Front-end",
+        "description": "This is the description of module 3",
+        "image": "https://via.placeholder.com/150",
+        "module-content": [
+          {
+            "title": "Day 1",
+            "description": "This is the description of day 1",
+            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+            "image": "https://via.placeholder.com/150",
+            "resources": [
+              {
+                "title": "Resource 1",
+                "description": "This is the description of resource 1",
+                "links": ["link1", "link2"],
+                "image": "https://via.placeholder.com/150",
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 1"
+              },
+              {
+                "title": "Resource 2",
+                "description": "This is the description of resource 2",
+                "links": ["link1", "link2"],
+                "image": "https://via.placeholder.com/150",
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 2"
+              }
+            ]
+          },
+          {
+            "title": "Day 2",
+            "description": "This is the description of lesson 2",
+            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4"
+          },
+          {
+            "title": "Custom resources",
+            "description": "This is the description of custom resources",
+            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+            "image": "https://via.placeholder.com/150",
+            "resources": [
+              {
+                "title": "Resource 1",
+                "description": "This is the description of resource 1",
+                "links": ["link1", "link2"],
+                "image": "https://via.placeholder.com/150",
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 1"
+              },
+              {
+                "title": "Resource 2",
+                "description": "This is the description of resource 2",
+                "links": ["link1", "link2"],
+                "image": "https://via.placeholder.com/150",
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Back-end",
+        "description": "This is the description of module 3",
+        "image": "https://via.placeholder.com/150",
+        "module-content": [
+          {
+            "title": "Day 1",
+            "description": "This is the description of day 1",
+            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+            "image": "https://via.placeholder.com/150",
+            "resources": [
+              {
+                "title": "Resource 1",
+                "description": "This is the description of resource 1",
+                "links": ["link1", "link2"],
+                "image": "https://via.placeholder.com/150",
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 1"
+              },
+              {
+                "title": "Resource 2",
+                "description": "This is the description of resource 2",
+                "links": ["link1", "link2"],
+                "image": "https://via.placeholder.com/150",
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 2"
+              }
+            ]
+          },
+          {
+            "title": "Day 2",
+            "description": "This is the description of lesson 2",
+            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4"
+          },
+          {
+            "title": "Custom resources",
+            "description": "This is the description of custom resources",
+            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+            "image": "https://via.placeholder.com/150",
+            "resources": [
+              {
+                "title": "Resource 1",
+                "description": "This is the description of resource 1",
+                "links": ["link1", "link2"],
+                "image": "https://via.placeholder.com/150",
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 1"
+              },
+              {
+                "title": "Resource 2",
+                "description": "This is the description of resource 2",
+                "links": ["link1", "link2"],
+                "image": "https://via.placeholder.com/150",
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Databases",
+        "description": "This is the description of module 4",
+        "image": "https://via.placeholder.com/150",
+        "module-content": [
+          {
+            "title": "Day 1",
+            "description": "This is the description of day 1",
+            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+            "image": "https://via.placeholder.com/150",
+            "resources": [
+              {
+                "title": "Resource 1",
+                "description": "This is the description of resource 1",
+                "links": ["link1", "link2"],
+                "image": "https://via.placeholder.com/150",
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 1"
+              },
+              {
+                "title": "Resource 2",
+                "description": "This is the description of resource 2",
+                "links": ["link1", "link2"],
+                "image": "https://via.placeholder.com/150",
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 2"
+              }
+            ]
+          },
+          {
+            "title": "Day 2",
+            "description": "This is the description of lesson 2",
+            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4"
+          },
+          {
+            "title": "Custom resources",
+            "description": "This is the description of custom resources",
+            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+            "image": "https://via.placeholder.com/150",
+            "resources": [
+              {
+                "title": "Resource 1",
+                "description": "This is the description of resource 1",
+                "links": ["link1", "link2"],
+                "image": "https://via.placeholder.com/150",
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 1"
+              },
+              {
+                "title": "Resource 2",
+                "description": "This is the description of resource 2",
+                "links": ["link1", "link2"],
+                "image": "https://via.placeholder.com/150",
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "QA",
+        "description": "This is the description of module 5",
+        "image": "https://via.placeholder.com/150",
+        "module-content": [
+          {
+            "title": "Day 1",
+            "description": "This is the description of day 1",
+            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+            "image": "https://via.placeholder.com/150",
+            "resources": [
+              {
+                "title": "Resource 1",
+                "description": "This is the description of resource 1",
+                "links": ["link1", "link2"],
+                "image": "https://via.placeholder.com/150",
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 1"
+              },
+              {
+                "title": "Resource 2",
+                "description": "This is the description of resource 2",
+                "links": ["link1", "link2"],
+                "image": "https://via.placeholder.com/150",
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 2"
+              }
+            ]
+          },
+          {
+            "title": "Day 2",
+            "description": "This is the description of lesson 2",
+            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4"
+          }
+        ]
+      },
+      {
+        "title": "Own resources",
+        "description": "This is the description of own resources 3",
+        "image": "https://via.placeholder.com/150",
+        "module-content": [
+          {
+            "title": "Folder 1",
+            "description": "This is the description of custom resources",
+            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+            "image": "https://via.placeholder.com/150",
+            "resources": [
+              {
+                "title": "Resource 1",
+                "description": "This is the description of resource 1",
+                "links": ["link1", "link2"],
+                "image": "https://via.placeholder.com/150",
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 1"
+              },
+              {
+                "title": "Resource 2",
+                "description": "This is the description of resource 2",
+                "links": ["link1", "link2"],
+                "image": "https://via.placeholder.com/150",
+                "videos": [
+                  {
+                    "title": "video 1",
+                    "description": "This is the description of video 1",
+                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+                    "further-details": "if video needs text"
+                  }
+                ],
+                "text": "This is the text of resource 2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 ]
