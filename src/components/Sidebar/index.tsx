@@ -36,7 +36,7 @@ const menuGroups = [
           </svg>
         ),
         label: "Dashboard",
-        route: "/calendar",
+        route: "/home",
       },
       ...jsonData[0].modules.map((module) => ({
         label: module.title,
@@ -196,7 +196,7 @@ const Sidebar = ({
       >
         {/* <!-- SIDEBAR HEADER --> */}
         <div className="flex items-center justify-between gap-2 px-6 py-5.5 lg:py-6.5">
-          <Link href="/calendar">
+          <Link href="/home">
             <Image
               width={176}
               height={32}
