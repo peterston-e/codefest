@@ -1,17 +1,17 @@
+'use client';
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import Image from "next/image";
-import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
 
-export const metadata: Metadata = {
-  title:
-    "ResourceAdmin",
-  description: "ResourceAdmin - your centralized dashboard for seamlessly managing and organizing both school-endorsed and personal resources in one efficient platform.",
-};
-
 const Settings = () => {
+  // Define a function that matches the expected type
+  const handleSetSelectedResource = (resource: any) => {
+    // set resource as null as DefaultLayout expects a resource
+    resource = null;
+    console.log(resource);
+  };
   return (
-    <DefaultLayout>
+    <DefaultLayout setSelectedResource={handleSetSelectedResource}>
       <div className="mx-auto max-w-270">
         <Breadcrumb pageName="Account Settings" />
 
