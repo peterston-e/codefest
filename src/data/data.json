@@ -17,7 +17,7 @@
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Resource 1",
+                "title": "Day 1 Resource 1",
                 "description": "This is the description of resource 1",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -32,7 +32,7 @@
                 "text": "This is the text of resource 1"
               },
               {
-                "title": "Resource 2",
+                "title": "Day 2 Resource 2",
                 "description": "This is the description of resource 2",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -78,7 +78,7 @@
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Resource 1",
+                "title": "Custom Resource 1",
                 "description": "This is the description of resource 1",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -93,7 +93,7 @@
                 "text": "This is the text of resource 1"
               },
               {
-                "title": "Resource 2",
+                "title": "Custom Resource 2",
                 "description": "This is the description of resource 2",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -123,7 +123,7 @@
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Resource 1",
+                "title": "Day 1 Resource 1",
                 "description": "This is the description of resource 1",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -138,7 +138,7 @@
                 "text": "This is the text of resource 1"
               },
               {
-                "title": "Resource 2",
+                "title": "Day 1 Resource 2",
                 "description": "This is the description of resource 2",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -166,7 +166,7 @@
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Resource 1",
+                "title": "Custom Resource 1",
                 "description": "This is the description of resource 1",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -181,7 +181,7 @@
                 "text": "This is the text of resource 1"
               },
               {
-                "title": "Resource 2",
+                "title": "Custom Resource 2",
                 "description": "This is the description of resource 2",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -211,7 +211,7 @@
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Resource 1",
+                "title": "Day 1 Resource 1",
                 "description": "This is the description of resource 1",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -226,7 +226,7 @@
                 "text": "This is the text of resource 1"
               },
               {
-                "title": "Resource 2",
+                "title": "Day 1 Resource 2",
                 "description": "This is the description of resource 2",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -254,7 +254,7 @@
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Resource 1",
+                "title": "Custom Resource 1",
                 "description": "This is the description of resource 1",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -269,7 +269,7 @@
                 "text": "This is the text of resource 1"
               },
               {
-                "title": "Resource 2",
+                "title": "Custom Resource 2",
                 "description": "This is the description of resource 2",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -299,7 +299,7 @@
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Resource 1",
+                "title": "Day 1 Resource 1",
                 "description": "This is the description of resource 1",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -314,7 +314,7 @@
                 "text": "This is the text of resource 1"
               },
               {
-                "title": "Resource 2",
+                "title": "Day 1 Resource 2",
                 "description": "This is the description of resource 2",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -342,7 +342,7 @@
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Resource 1",
+                "title": "Custom Resource 1",
                 "description": "This is the description of resource 1",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -357,7 +357,7 @@
                 "text": "This is the text of resource 1"
               },
               {
-                "title": "Resource 2",
+                "title": "Custom Resource 2",
                 "description": "This is the description of resource 2",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -387,7 +387,7 @@
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Resource 1",
+                "title": "Day 1 Resource 1",
                 "description": "This is the description of resource 1",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -402,7 +402,7 @@
                 "text": "This is the text of resource 1"
               },
               {
-                "title": "Resource 2",
+                "title": "Day 1 Resource 2",
                 "description": "This is the description of resource 2",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -437,7 +437,7 @@
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Resource 1",
+                "title": "Own Resource 1",
                 "description": "This is the description of resource 1",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -452,7 +452,7 @@
                 "text": "This is the text of resource 1"
               },
               {
-                "title": "Resource 2",
+                "title": "Own Resource 2",
                 "description": "This is the description of resource 2",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",

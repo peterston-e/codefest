@@ -1,16 +1,16 @@
+"use client";
 import HomePage from "@/components/HomePage";
-import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
 
-export const metadata: Metadata = {
-  title:
-    "ResourceAdmin",
-  description: "ResourceAdmin - your centralized dashboard for seamlessly managing and organizing both school-endorsed and personal resources in one efficient platform.",
-};
-
 const CalendarPage = () => {
+  // Define a function that matches the expected type
+  const handleSetSelectedResource = (resource: any) => {
+    // set resource as null ad DefaultLayout expects a resource
+    resource = null;
+    console.log(resource);
+  };
   return (
-    <DefaultLayout>
+    <DefaultLayout setSelectedResource={handleSetSelectedResource}>
       <HomePage />
     </DefaultLayout>
   );

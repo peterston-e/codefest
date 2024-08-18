@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
@@ -12,6 +12,7 @@ import jsonData from "@/data/data.json";
 interface SidebarProps {
   sidebarOpen: boolean;
   setSidebarOpen: (arg: boolean) => void;
+  onResourceSelect: (resource: any) => void;
 }
 
 const menuGroups = [
@@ -37,18 +38,25 @@ const menuGroups = [
         label: "Dashboard",
         route: "/calendar",
       },
-      ...jsonData[0].modules.map(module => ({
+      ...jsonData[0].modules.map((module) => ({
         label: module.title,
         route: "#",
-        children: module["module-content"].map(content => ({
+        children: module["module-content"].map((content) => ({
           label: content.title,
           route: "#",
-          children: content["resources"] ? content["resources"].map(item => ({
-            label: item.title,
-            route: "#",
-        })) : null,
-      }))
-    })),
+          children: content["resources"]
+            ? content["resources"].map((item) => ({
+                label: item.title,
+                route: "/resource",
+                description: item.description,
+                links: item.links,
+                image: item.image,
+                videos: item.videos,
+                resourceText: item.text,
+              }))
+            : null,
+        })),
+      })),
     ],
   },
   {
@@ -171,7 +179,11 @@ const menuGroups = [
   },
 ];
 
-const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
+const Sidebar = ({
+  onResourceSelect,
+  sidebarOpen,
+  setSidebarOpen,
+}: SidebarProps) => {
   const pathname = usePathname();
   const [pageName, setPageName] = useLocalStorage("selectedMenu", "dashboard");
 
@@ -232,6 +244,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                       item={menuItem}
                       pageName={pageName}
                       setPageName={setPageName}
+                      onResourceSelect={onResourceSelect}
                     />
                   ))}
                 </ul>

@@ -1,17 +1,18 @@
 "use client";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
-import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
 import jsonData from "@/data/data.json";
 import ModuleOptions from "./ModuleOptions";
 import { useState } from "react";
 
-// export const metadata: Metadata = {
-//   title: "Add New Resource",
-//   description: "Add New Resource",
-// };
-
 const AddResource = () => {
+  // Define a function that matches the expected type
+  const handleSetSelectedResource = (resource: any) => {
+    // set resource as null ad DefaultLayout expects a resource
+    resource = null;
+    console.log(resource);
+  };
+
   const [formData, setFormData] = useState({
     resourceTitle: "",
     resourceModule: "",
@@ -65,7 +66,7 @@ const AddResource = () => {
   };
 
   return (
-    <DefaultLayout>
+    <DefaultLayout setSelectedResource={handleSetSelectedResource}>
       <div className="mx-auto max-w-270">
         <Breadcrumb pageName="Add New Resource" />
         {!formData.isSubmitted ? (
