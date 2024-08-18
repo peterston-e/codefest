@@ -23,6 +23,9 @@ const SidebarItem = ({
       console.log(item);
       onResourceSelect(item);
     }
+
+    // Update sessionStorage with the selected resource, without this, the selected resource would not always display correctly
+    sessionStorage.setItem("selectedResource", JSON.stringify(item));
   };
 
   const toggleItem = (label: string) => {

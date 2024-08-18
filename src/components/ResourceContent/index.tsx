@@ -15,21 +15,25 @@ interface Resource {
   text: string;
 }
 
-const ResourceContent = ({ resource }: { resource: Resource }) => {
+const ResourceContent = ({ resource }: { resource: Resource | null }) => {
   return (
     <div className="container px-20">
       <Breadcrumb pageName="Resource" />
 
-      <div className="grid grid-cols-1">
-        <ResourceCard
-          description={resource.description}
-          title={resource.label}
-          links={resource.links}
-          imgSrc={resource.image}
-          videos={resource.videos}
-          resourceText={resource.text}
-        />
-      </div>
+      {resource ? (
+        <div className="grid grid-cols-1">
+          <ResourceCard
+            description={resource.description}
+            title={resource.label}
+            links={resource.links}
+            imgSrc={resource.image}
+            videos={resource.videos}
+            resourceText={resource.text}
+          />
+        </div>
+      ) : (
+        <div>Please select a resource to display</div>
+      )}
     </div>
   );
 };
