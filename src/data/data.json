@@ -11,7 +11,7 @@
         "image": "https://unsplash.com/photos/a-man-is-holding-something-in-his-hands-4AG-k7KeNOg",
         "module-content": [
           {
-            "title": "Day 1",
+            "title": "Onboarding Day 1",
             "description": "This is the description of day 1",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
             "image": "https://via.placeholder.com/150",
@@ -32,7 +32,7 @@
                 "text": "This is the text of resource 1"
               },
               {
-                "title": "Day 2 Resource 2",
+                "title": "Day 1 Resource 2",
                 "description": "This is the description of resource 2",
                 "links": ["link1", "link2"],
                 "image": "https://via.placeholder.com/150",
@@ -49,24 +49,24 @@
             ]
           },
           {
-            "title": "Day 2",
+            "title": "Onboarding Day 2",
             "description": "This is the description of lesson 2",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4"
           },
           {
-            "title": "Day 3",
+            "title": "Onboarding Day 3",
             "description": "This is the description of day 3",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
             "image": "https://via.placeholder.com/150"
           },
           {
-            "title": "Day 4",
+            "title": "Onboarding Day 4",
             "description": "This is the description of day 4",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
             "image": "https://via.placeholder.com/150"
           },
           {
-            "title": "Day 5",
+            "title": "Onboarding Day 5",
             "description": "This is the description of day 5",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
             "image": "https://via.placeholder.com/150"
@@ -117,7 +117,7 @@
         "image": "https://via.placeholder.com/150",
         "module-content": [
           {
-            "title": "Day 1",
+            "title": "Front-end Day 1",
             "description": "This is the description of day 1",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
             "image": "https://via.placeholder.com/150",
@@ -155,7 +155,7 @@
             ]
           },
           {
-            "title": "Day 2",
+            "title": "Front-end Day 2",
             "description": "This is the description of lesson 2",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4"
           },
@@ -205,7 +205,7 @@
         "image": "https://via.placeholder.com/150",
         "module-content": [
           {
-            "title": "Day 1",
+            "title": "Back-end Day 1",
             "description": "This is the description of day 1",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
             "image": "https://via.placeholder.com/150",
@@ -243,7 +243,7 @@
             ]
           },
           {
-            "title": "Day 2",
+            "title": "Back-end Day 2",
             "description": "This is the description of lesson 2",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4"
           },
@@ -293,7 +293,7 @@
         "image": "https://via.placeholder.com/150",
         "module-content": [
           {
-            "title": "Day 1",
+            "title": "Databases Day 1",
             "description": "This is the description of day 1",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
             "image": "https://via.placeholder.com/150",
@@ -331,7 +331,7 @@
             ]
           },
           {
-            "title": "Day 2",
+            "title": "Databases Day 2",
             "description": "This is the description of lesson 2",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4"
           },
@@ -381,7 +381,7 @@
         "image": "https://via.placeholder.com/150",
         "module-content": [
           {
-            "title": "Day 1",
+            "title": "QA Day 1",
             "description": "This is the description of day 1",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
             "image": "https://via.placeholder.com/150",
@@ -419,7 +419,7 @@
             ]
           },
           {
-            "title": "Day 2",
+            "title": "QA Day 2",
             "description": "This is the description of lesson 2",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4"
           }
