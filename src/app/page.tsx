@@ -1,5 +1,6 @@
 "use client";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
+import Welcome from "@/components/Dashboard/Welcome";
 
 export default function Home() {
   // Define a function that matches the expected type
@@ -12,8 +13,7 @@ export default function Home() {
   return (
     <>
       <DefaultLayout setSelectedResource={handleSetSelectedResource}>
-        {/* <ECommerce /> */}
-        <h1>Hello World</h1>
+        <Welcome />
       </DefaultLayout>
     </>
   );
