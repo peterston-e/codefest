@@ -19,15 +19,13 @@ const HomePage = () => {
       {modules && (
         <div>
           <ul>
-          <div className="mb-5.5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5.5">
+          <div className="mb-5.5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
             {modules.map((module, index) => (
               <li key={index}>
                 {myData[0].image && (
                   <Image
                     src={courseImage}
                     alt={myData[0].title || "Module image"}
-                    width={300} 
-                    height={300} 
                   />
                 )}
                 <h3 className="text-title-md font-bold text-primary py-4">{module.title}</h3>
