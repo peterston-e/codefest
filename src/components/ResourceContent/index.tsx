@@ -12,25 +12,28 @@ interface Resource {
     link: string;
     "further-details": string;
   }[];
-  text: string;
+  resourceText: string;
 }
 
 const ResourceContent = ({ resource }: { resource: Resource | null }) => {
   return (
-    <div className="container px-20">
+    <div className="container mx-auto max-w-270">
       <Breadcrumb pageName="Resource" />
 
       {resource ? (
-        <div className="grid grid-cols-1">
-          <ResourceCard
-            description={resource.description}
-            title={resource.label}
-            links={resource.links}
-            imgSrc={resource.image}
-            videos={resource.videos}
-            resourceText={resource.text}
-          />
+        <div className="mt-4 grid grid-cols-5 gap-8">
+          <div className="col-span-5 xl:col-span-3">
+            <ResourceCard
+              description={resource.description}
+              title={resource.label}
+              links={resource.links}
+              imgSrc={resource.image}
+              videos={resource.videos}
+              resourceText={resource.resourceText}
+            />
+          </div>
         </div>
+        
       ) : (
         <div>Please select a resource to display</div>
       )}

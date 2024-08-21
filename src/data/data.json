@@ -7,105 +7,117 @@
     "modules": [
       {
         "title": "Onboarding",
-        "description": "This is the description of module 1",
+        "description": "Get started with essential skills for your learning journey and project collaboration.",
         "image": "https://unsplash.com/photos/a-man-is-holding-something-in-his-hands-4AG-k7KeNOg",
         "module-content": [
           {
             "title": "Onboarding Day 1",
-            "description": "This is the description of day 1",
+            "description": "Introduction to learning strategies and Git/GitHub basics.",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Day 1 Resource 1",
-                "description": "This is the description of resource 1",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
+                "title": "How to Learn Effectively",
+                "description": "Learn science-based study techniques.",
+                "links": [
+                  "https://www.coursera.org/learn/learning-how-to-learn",
+                  "https://www.edx.org/learn/how-to-learn/edx-how-to-learn-online"
+                ],
+                "image": "https://live.staticflickr.com/8166/7211160284_f7904f1561_b.jpg",
                 "videos": [
                   {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
+                    "title": "Learning How to Learn: Powerful Mental Tools",
+                    "description": "A video that introduces techniques to help you learn anything more efficiently.",
+                    "link": "https://www.youtube.com/watch?v=5MgBikgcWnY",
+                    "further-details": "This video covers key concepts such as chunking, recall, and spaced repetition."
                   }
                 ],
-                "text": "This is the text of resource 1"
+                "text": "Effective learning is not just about spending hours with your books; it’s about using time wisely. Research shows that techniques like active recall, where you test yourself on material, are far superior to passive review. Spaced repetition, which involves reviewing information at increasing intervals, helps you move knowledge from short-term to long-term memory. Another powerful method is chunking, where you break down information into manageable pieces. By applying these strategies, you can study smarter, not harder, and improve retention and understanding of complex subjects."
               },
               {
-                "title": "Day 1 Resource 2",
-                "description": "This is the description of resource 2",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
+                "title": "Introduction to Git and GitHub",
+                "description": "Basics of version control with Git/GitHub.",
+                "links": [
+                  "https://guides.github.com/activities/hello-world/",
+                  "https://www.atlassian.com/git/tutorials"
+                ],
+                "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/OneFlow_Example.png",
                 "videos": [
                   {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
+                    "title": "Git and GitHub for Beginners",
+                    "description": "A beginner-friendly video explaining Git and GitHub fundamentals.",
+                    "link": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+                    "further-details": "This video covers basic commands and workflow in Git, as well as how to collaborate on GitHub."
                   }
                 ],
-                "text": "This is the text of resource 2"
+                "text": "Git is an essential tool for anyone working on software projects, allowing you to track changes, collaborate with others, and maintain a history of your work. GitHub, a web-based platform, leverages Git to provide a centralized location for storing and sharing code. Understanding basic Git commands like commit, push, pull, and merge is crucial for effective version control. Moreover, GitHub offers features like pull requests and issues, which are vital for collaborative coding and project management. Mastering these tools will help you contribute effectively to team projects and manage your codebase efficiently."
               }
             ]
           },
           {
             "title": "Onboarding Day 2",
-            "description": "This is the description of lesson 2",
+            "description": "This day focuses on advanced Git workflows and branching strategies.",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4"
           },
           {
             "title": "Onboarding Day 3",
-            "description": "This is the description of day 3",
+            "description": "Learn about code reviews and collaborative practices on GitHub.",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
             "image": "https://via.placeholder.com/150"
           },
           {
             "title": "Onboarding Day 4",
-            "description": "This is the description of day 4",
+            "description": "Dive into continuous integration and testing workflows.",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
             "image": "https://via.placeholder.com/150"
           },
           {
             "title": "Onboarding Day 5",
-            "description": "This is the description of day 5",
+            "description": "Understand deployment strategies and project management.",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
             "image": "https://via.placeholder.com/150"
           },
           {
             "title": "Custom resources",
-            "description": "This is the description of custom resources",
+            "description": "Additional resources to enhance your learning and Git/GitHub skills.",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Custom Resource 1",
-                "description": "This is the description of resource 1",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
+                "title": "Pro Tips for Effective Studying",
+                "description": "Maximize your study efficiency.",
+                "links": [
+                  "https://www.scotthyoung.com/blog/learn-more-study-less/",
+                  "https://fs.blog/learning-techniques/"
+                ],
+                "image": "https://live.staticflickr.com/797/40914503962_ce31b942cf_b.jpg",
                 "videos": [
                   {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
+                    "title": "Top 10 Study Tips",
+                    "description": "A video summarizing the best practices for studying effectively.",
+                    "link": "https://www.youtube.com/watch?v=p60rN9JEapg",
+                    "further-details": "Covers tips like setting specific goals, minimizing distractions, and testing yourself regularly."
                   }
                 ],
-                "text": "This is the text of resource 1"
+                "text": "Studying effectively involves more than just reading through notes or textbooks. Techniques like the Pomodoro method can help maintain focus by breaking study sessions into manageable intervals with breaks in between. Active recall and self-testing ensure that you engage with the material, turning passive review into an active learning process. Interleaving, or mixing different subjects or topics, can enhance learning by helping you make connections between different ideas. Incorporating these strategies into your study routine can lead to more efficient learning and better long-term retention of information."
               },
               {
-                "title": "Custom Resource 2",
-                "description": "This is the description of resource 2",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
+                "title": "Advanced Git Techniques",
+                "description": "Explore complex Git commands.",
+                "links": [
+                  "https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics",
+                  "https://www.atlassian.com/git/tutorials/git-rebase"
+                ],
+                "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Mergevsrebase.png",
                 "videos": [
                   {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
+                    "title": "Git Rebase vs. Merge",
+                    "description": "Understand the difference between rebasing and merging, and when to use each.",
+                    "link": "https://www.youtube.com/watch?v=CRlGDDprdOQ",
+                    "further-details": "This video explains the benefits and potential pitfalls of rebasing in Git."
                   }
                 ],
-                "text": "This is the text of resource 2"
+                "text": "Once you’re comfortable with the basics of Git, it’s time to explore more advanced features that can streamline your workflow and prevent common issues. Techniques like rebase allow you to clean up your commit history, making it linear and easier to follow, while cherry-pick lets you apply specific commits from one branch to another. Understanding the differences between merge and rebase helps you decide the best strategy for integrating changes from different branches. Mastering these advanced commands will empower you to handle complex version control scenarios with confidence and precision."
               }
             ]
           }
@@ -113,87 +125,99 @@
       },
       {
         "title": "Front-end",
-        "description": "This is the description of module 3",
+        "description": "Introduction to JavaScript and front-end basics",
         "image": "https://via.placeholder.com/150",
         "module-content": [
           {
             "title": "Front-end Day 1",
-            "description": "This is the description of day 1",
-            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+            "description": "Learn the basics of JavaScript",
+            "video": "https://www.youtube.com/watch?v=upDLs1sn7g4",
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Day 1 Resource 1",
-                "description": "This is the description of resource 1",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
+                "title": "Introduction to JavaScript",
+                "description": "Learn JavaScript fundamentals",
+                "links": [
+                  "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction",
+                  "https://www.w3schools.com/js/js_intro.asp"
+                ],
+                "image": "https://live.staticflickr.com/65535/49387510657_110720ce11_b.jpg",
                 "videos": [
                   {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
+                    "title": "JavaScript Basics",
+                    "description": "An introduction to JavaScript",
+                    "link": "https://www.youtube.com/watch?v=W6NZfCO5SIk",
+                    "further-details": "Covers variables, data types, and simple operations"
                   }
                 ],
-                "text": "This is the text of resource 1"
+                "text": "JavaScript is a versatile programming language that powers the dynamic behavior on most websites. Understanding its basics is crucial for any front-end developer. You'll start with the syntax, learning how to write and execute simple scripts. Variables, data types, and operators are the building blocks of JavaScript, enabling you to manipulate data and create interactive experiences. As you progress, you'll encounter control structures like `if-else` statements, which allow your code to make decisions based on certain conditions."
               },
               {
-                "title": "Day 1 Resource 2",
-                "description": "This is the description of resource 2",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
+                "title": "JavaScript Functions",
+                "description": "Understanding functions",
+                "links": [
+                  "https://www.javascripttutorial.net/javascript-function/",
+                  "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions"
+                ],
+                "image": "https://miro.medium.com/v2/resize:fit:1400/1*8tlA-FdbEttgebz-JUxszA.png",
                 "videos": [
                   {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
+                    "title": "JavaScript Functions",
+                    "description": "Learn about functions in JS",
+                    "link": "https://www.youtube.com/watch?v=eis11j_iGMs",
+                    "further-details": "Details how to define and invoke functions"
                   }
                 ],
-                "text": "This is the text of resource 2"
+                "text": "Functions in JavaScript are fundamental for writing reusable code. A function is a block of code designed to perform a particular task. You can define a function once and call it multiple times, which makes your code more modular and easier to maintain. Functions can accept inputs (parameters) and return outputs, making them powerful tools for abstraction and code reuse. Mastering functions will enable you to break down complex problems into smaller, manageable pieces, enhancing your problem-solving skills in coding."
               }
             ]
           },
           {
             "title": "Front-end Day 2",
-            "description": "This is the description of lesson 2",
+            "description": "Dive into JavaScript DOM manipulation",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4"
           },
           {
             "title": "Custom resources",
-            "description": "This is the description of custom resources",
+            "description": "Additional JavaScript resources",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Custom Resource 1",
-                "description": "This is the description of resource 1",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
+                "title": "JavaScript Switch Case",
+                "description": "Understanding switch case",
+                "links": [
+                  "https://www.w3schools.com/js/js_switch.asp",
+                  "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch"
+                ],
+                "image": "https://miro.medium.com/v2/resize:fit:762/1*0KACYGFFuTfXQcVpL70CeA.png",
                 "videos": [
                   {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
+                    "title": "Switch Case in JavaScript",
+                    "description": "Tutorial on switch case",
+                    "link": "https://www.youtube.com/watch?v=rRgD1yVwIvE",
+                    "further-details": "Explains how to use switch statements effectively"
                   }
                 ],
-                "text": "This is the text of resource 1"
+                "text": "The switch statement in JavaScript is used to execute one block of code among many based on different conditions. It’s a cleaner alternative to multiple `if-else` statements when you need to compare the same variable to several values. Each case in a switch statement is checked, and if a match is found, the corresponding block of code is executed. If no match is found, the default block (if provided) is executed. This control structure is especially useful when you have many conditions to check, making your code easier to read and maintain."
               },
               {
-                "title": "Custom Resource 2",
-                "description": "This is the description of resource 2",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
+                "title": "JavaScript Loops",
+                "description": "Learn about loops in JS",
+                "links": [
+                  "https://www.w3schools.com/js/js_loop_for.asp",
+                  "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration"
+                ],
+                "image": "https://thehelpfultipper.com/wp-content/uploads/2023/01/4-Different-Types-Of-JavaScript-Loops-With-Examples.png",
                 "videos": [
                   {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
+                    "title": "JavaScript Loops Explained",
+                    "description": "Understanding loops",
+                    "link": "https://www.youtube.com/watch?v=s9wW2PpJsmQ",
+                    "further-details": "Covers for, while, and do-while loops"
                   }
                 ],
-                "text": "This is the text of resource 2"
+                "text": "Loops are a fundamental concept in JavaScript, allowing you to execute a block of code multiple times. There are several types of loops, including `for`, `while`, and `do-while`, each serving different use cases. `For` loops are ideal when you know how many times you want to iterate. `While` loops are best when the number of iterations is not predetermined, and `do-while` loops ensure the code runs at least once. Understanding loops is essential for tasks like iterating over arrays or handling repetitive actions efficiently in your code."
               }
             ]
           }
@@ -201,87 +225,99 @@
       },
       {
         "title": "Back-end",
-        "description": "This is the description of module 3",
+        "description": "Learn the basics of Node.js and APIs",
         "image": "https://via.placeholder.com/150",
         "module-content": [
           {
             "title": "Back-end Day 1",
-            "description": "This is the description of day 1",
-            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+            "description": "Introduction to Node.js",
+            "video": "https://www.youtube.com/watch?v=TlB_eWDSMt4",
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Day 1 Resource 1",
-                "description": "This is the description of resource 1",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
+                "title": "Getting Started with Node.js",
+                "description": "Basics of Node.js",
+                "links": [
+                  "https://nodejs.dev/en/learn/introduction-to-nodejs",
+                  "https://www.w3schools.com/nodejs/nodejs_intro.asp"
+                ],
+                "image": "https://miro.medium.com/v2/resize:fit:1055/1*dZA2XUPPibLK59U4-PK82Q.png",
                 "videos": [
                   {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
+                    "title": "Introduction to Node.js",
+                    "description": "Learn Node.js basics",
+                    "link": "https://www.youtube.com/watch?v=TlB_eWDSMt4",
+                    "further-details": "Covers setup, basic syntax, and first steps"
                   }
                 ],
-                "text": "This is the text of resource 1"
+                "text": "Node.js is a powerful JavaScript runtime built on Chrome's V8 engine, allowing you to run JavaScript code outside of the browser. It's particularly popular for building back-end services, such as APIs or server-side applications. In this resource, you’ll learn how to set up Node.js, understand its event-driven architecture, and explore its non-blocking I/O model, which makes it efficient for handling multiple requests. Mastering Node.js basics is essential for building scalable and high-performance back-end solutions."
               },
               {
-                "title": "Day 1 Resource 2",
-                "description": "This is the description of resource 2",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
+                "title": "Node.js Modules and NPM",
+                "description": "Understanding modules",
+                "links": [
+                  "https://nodejs.dev/en/learn/nodejs-modules",
+                  "https://www.w3schools.com/nodejs/nodejs_modules.asp"
+                ],
+                "image": "https://oida.dev/wp-content/uploads/2020/node-modules-meme.png",
                 "videos": [
                   {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
+                    "title": "Node.js Modules Tutorial",
+                    "description": "Learn about modules",
+                    "link": "https://www.youtube.com/watch?v=xHLd36QoS4k",
+                    "further-details": "Introduction to modules and package management"
                   }
                 ],
-                "text": "This is the text of resource 2"
+                "text": "Modules are a crucial part of Node.js, allowing you to organize your code into manageable pieces. By using modules, you can reuse code across different parts of your application, which promotes cleaner, more maintainable code. Node.js comes with a rich set of built-in modules, and you can also create your own or use third-party modules via NPM (Node Package Manager). Understanding how to effectively use and manage modules is a key skill in Node.js development, enabling you to build robust and scalable applications."
               }
             ]
           },
           {
             "title": "Back-end Day 2",
-            "description": "This is the description of lesson 2",
+            "description": "Building APIs with Node.js",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4"
           },
           {
             "title": "Custom resources",
-            "description": "This is the description of custom resources",
+            "description": "Additional Node.js and API resources",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Custom Resource 1",
-                "description": "This is the description of resource 1",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
+                "title": "Building a RESTful API with Node.js",
+                "description": "Create a RESTful API",
+                "links": [
+                  "https://www.smashingmagazine.com/2020/06/rest-api-node-jwt-mongodb/",
+                  "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes"
+                ],
+                "image": "https://miro.medium.com/v2/resize:fit:1400/1*gyUa6Qx-xcOR1vHg1IoVkw.png",
                 "videos": [
                   {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
+                    "title": "REST API Tutorial",
+                    "description": "Learn REST API basics",
+                    "link": "https://www.youtube.com/watch?v=fgTGADljAeg",
+                    "further-details": "Covers building a RESTful API with Node.js"
                   }
                 ],
-                "text": "This is the text of resource 1"
+                "text": "Building a RESTful API is one of the most common tasks in back-end development. REST (Representational State Transfer) is an architectural style for designing networked applications, relying on stateless communication and standard HTTP methods. In this resource, you’ll learn how to set up a RESTful API using Node.js, handle different HTTP methods (GET, POST, PUT, DELETE), and work with data in JSON format. Understanding how to build and secure APIs is critical for developing modern web applications that interact with other services or front-end clients."
               },
               {
-                "title": "Custom Resource 2",
-                "description": "This is the description of resource 2",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
+                "title": "Express.js for Node.js",
+                "description": "Learn Express.js",
+                "links": [
+                  "https://expressjs.com/en/starter/installing.html",
+                  "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction"
+                ],
+                "image": "https://www.bezkoder.com/wp-content/uploads/2021/12/node-js-express-login-example-architecture.png",
                 "videos": [
                   {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
+                    "title": "Express.js Crash Course",
+                    "description": "Introduction to Express.js",
+                    "link": "https://www.youtube.com/watch?v=L72fhGm1tfE",
+                    "further-details": "Covers setting up and using Express.js"
                   }
                 ],
-                "text": "This is the text of resource 2"
+                "text": "Express.js is a fast, unopinionated, minimalist web framework for Node.js. It simplifies the process of building web applications and APIs by providing a robust set of features for handling routing, middleware, and HTTP requests. In this resource, you’ll learn how to set up Express.js, create routes, and implement middleware to handle requests and responses efficiently. Express.js is the backbone of many Node.js applications, making it an essential tool for back-end developers looking to build scalable and maintainable web services."
               }
             ]
           }
@@ -289,87 +325,81 @@
       },
       {
         "title": "Databases",
-        "description": "This is the description of module 4",
+        "description": "Introduction to SQL and PostgreSQL",
         "image": "https://via.placeholder.com/150",
         "module-content": [
           {
             "title": "Databases Day 1",
-            "description": "This is the description of day 1",
-            "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
+            "description": "Introduction to SQL basics",
+            "video": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Day 1 Resource 1",
-                "description": "This is the description of resource 1",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
+                "title": "Understanding SQL",
+                "description": "SQL fundamentals",
+                "links": [
+                  "https://www.w3schools.com/sql/sql_intro.asp",
+                  "https://sqlbolt.com/"
+                ],
+                "image": "https://storage.googleapis.com/algodailyrandomassets/curriculum/sql_tutorials/sql_commands.png",
                 "videos": [
                   {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
+                    "title": "SQL for Beginners",
+                    "description": "Learn SQL basics",
+                    "link": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+                    "further-details": "Covers SQL syntax, queries, and commands"
                   }
                 ],
-                "text": "This is the text of resource 1"
+                "text": "Structured Query Language (SQL) is a powerful tool for managing and querying data stored in relational databases. It is essential for tasks such as data retrieval, insertion, updating, and deletion. In this resource, you will learn the basic syntax of SQL, how to write queries to interact with databases, and the significance of different SQL commands. Mastering SQL fundamentals is crucial for any database management, making it a valuable skill in many data-driven roles."
               },
               {
-                "title": "Day 1 Resource 2",
-                "description": "This is the description of resource 2",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
+                "title": "Introduction to PostgreSQL",
+                "description": "Basics of PostgreSQL",
+                "links": [
+                  "https://www.postgresql.org/docs/current/tutorial.html",
+                  "https://www.tutorialspoint.com/postgresql/index.htm"
+                ],
+                "image": "https://cdn.buttercms.com/Q7BiNicuSe6SdIVpw9tH",
                 "videos": [
                   {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
+                    "title": "PostgreSQL Tutorial",
+                    "description": "Learn PostgreSQL basics",
+                    "link": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+                    "further-details": "Introduction to PostgreSQL features and setup"
                   }
                 ],
-                "text": "This is the text of resource 2"
+                "text": "PostgreSQL is a powerful, open-source object-relational database system known for its stability, scalability, and advanced features. This resource will introduce you to PostgreSQL, guiding you through the installation process, basic configuration, and the fundamental SQL commands used in PostgreSQL. You will also explore how to create databases, tables, and perform operations such as data insertion and retrieval. Understanding PostgreSQL basics is crucial for managing large datasets and building robust, scalable applications."
               }
             ]
           },
           {
             "title": "Databases Day 2",
-            "description": "This is the description of lesson 2",
+            "description": "Advanced SQL and PostgreSQL",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4"
           },
           {
             "title": "Custom resources",
-            "description": "This is the description of custom resources",
+            "description": "Additional SQL and PostgreSQL resources",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Custom Resource 1",
-                "description": "This is the description of resource 1",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
+                "title": "Advanced SQL Queries",
+                "description": "Complex SQL operations",
+                "links": [
+                  "https://mode.com/sql-tutorial/intro-to-advanced-sql",
+                  "https://www.geeksforgeeks.org/sql-advanced-functions/?ref=gcse_ind"
+                ],
+                "image": "https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/6684f40e3bfa65f0ab2fd95e_AD_4nXcgYIkBx47XigJYW49N6e7euAF24eSU0A5W5VJhi-bcaHPQ_4VkBAZDK_3TwhxUUYDpjscp11OXeWKajpLQSiInMZ0egz0-cG_4L8kG6xNPpeqSDNCT8_usOW5V-4igaRtWtC3YaCSxsXqZDatg-vanK5gZ.png",
                 "videos": [
                   {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
+                    "title": "Mastering SQL Joins",
+                    "description": "Learn advanced joins",
+                    "link": "https://www.youtube.com/watch?v=9yeOJ0ZMUYw",
+                    "further-details": "Detailed explanation of SQL joins and use cases"
                   }
                 ],
-                "text": "This is the text of resource 1"
-              },
-              {
-                "title": "Custom Resource 2",
-                "description": "This is the description of resource 2",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
-                "videos": [
-                  {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
-                  }
-                ],
-                "text": "This is the text of resource 2"
+                "text": "Mastering advanced SQL queries is vital for managing complex data operations. This resource covers advanced topics such as subqueries, common table expressions (CTEs), and various types of joins. Understanding these advanced concepts allows you to optimize database performance, perform intricate data analysis, and write more efficient queries. Whether you're dealing with large datasets or need to manipulate data across multiple tables, these advanced SQL skills will be invaluable in your toolkit."
               }
             ]
           }
@@ -377,99 +407,120 @@
       },
       {
         "title": "QA",
-        "description": "This is the description of module 5",
+        "description": "Introduction to QA and testing",
         "image": "https://via.placeholder.com/150",
         "module-content": [
           {
             "title": "QA Day 1",
-            "description": "This is the description of day 1",
+            "description": "Foundations of QA and testing",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Day 1 Resource 1",
-                "description": "This is the description of resource 1",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
+                "title": "Test Driven Development (TDD)",
+                "description": "Intro to TDD concepts",
+                "links": [
+                  "https://www.codecademy.com/articles/tdd-red-green-refactor",
+                  "https://www.freecodecamp.org/news/how-to-test-javascript-code-with-jest/"
+                ],
+                "image": "https://marsner.com/wp-content/uploads/test-driven-development-TDD.png",
                 "videos": [
                   {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
+                    "title": "Understanding TDD",
+                    "description": "Learn the basics of TDD",
+                    "link": "https://www.youtube.com/watch?v=6o5Z-l2IsDI",
+                    "further-details": "An overview of Test-Driven Development"
                   }
                 ],
-                "text": "This is the text of resource 1"
+                "text": "Test-Driven Development (TDD) is a critical practice in modern software development that emphasizes writing tests before code. This approach helps ensure that the code meets the specified requirements and is less prone to bugs. By adopting TDD, developers can create more reliable and maintainable code, leading to higher quality software."
               },
               {
-                "title": "Day 1 Resource 2",
-                "description": "This is the description of resource 2",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
+                "title": "Jest",
+                "description": "Introduction to Jest",
+                "links": [
+                  "https://jestjs.io/docs/getting-started",
+                  "https://www.freecodecamp.org/news/how-to-test-javascript-code-with-jest/"
+                ],
+                "image": "https://miro.medium.com/v2/resize:fit:796/1*bQ7s-PbY_aW3PthOt-iNFw.png",
                 "videos": [
                   {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
+                    "title": "Getting Started with Jest",
+                    "description": "Learn how to use Jest",
+                    "link": "https://www.youtube.com/watch?v=7r4xVDI2vho",
+                    "further-details": "A beginner's guide to using Jest for testing"
+                  },
+                  {
+                    "title": "Introduction To Testing In JavaScript With Jest",
+                    "description": "Concepts Covered: How to install Jest, What unit testing is, Why testing is important, How to write unit tests with Jest, The importance of test coverage",
+                    "link": "https://www.youtube.com/watch?v=FgnxcUQ5vho",
+                    "further-details": "Testing is one of those things that people either love or hate. Usually testing is something that is hated, until you work on a project with good tests and you realize how amazing they are. In this video I am going to show you how to get started with testing in JavaScript using Jest. I will talk about the code you need in order to write tests, as well as show you some pitfalls of testing. At the end of the video I will breakdown the importance of testing and some best practices you can adhere to in order to make your tests amazing."
                   }
+              
                 ],
-                "text": "This is the text of resource 2"
+                "text": "Jest is a popular testing framework for JavaScript, widely used for its simplicity and powerful features. It integrates seamlessly with TDD practices, allowing developers to write and run tests efficiently. This resource will guide you through setting up Jest and writing your first test cases, helping you establish a solid foundation in automated testing."
               }
             ]
           },
           {
             "title": "QA Day 2",
-            "description": "This is the description of lesson 2",
+            "description": "Advanced testing strategies",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4"
           }
         ]
       },
+      
       {
         "title": "Own resources",
-        "description": "This is the description of own resources 3",
+        "description": "Collect and organize your resources here.",
         "image": "https://via.placeholder.com/150",
         "module-content": [
           {
             "title": "Folder 1",
-            "description": "This is the description of custom resources",
+            "description": "Store your Python and Java resources",
             "video": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
             "image": "https://via.placeholder.com/150",
             "resources": [
               {
-                "title": "Own Resource 1",
-                "description": "This is the description of resource 1",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
+                "title": "Python Resource",
+                "description": "Learn Python fundamentals",
+                "links": [
+                  "https://cs50.harvard.edu/python/2022/",
+                  "https://docs.python.org/3/tutorial/"
+                  
+                ],
+                "image": "https://miro.medium.com/v2/resize:fit:1000/0*I8gAvOyQ8HmqOSfN",
                 "videos": [
                   {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
+                    "title": "Python for Beginners",
+                    "description": "Intro to Python programming",
+                    "link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+                    "further-details": "Comprehensive guide to Python basics"
                   }
                 ],
-                "text": "This is the text of resource 1"
+                "text": "Python is a versatile and widely-used programming language known for its simplicity and readability. This resource is designed to help beginners grasp the fundamental concepts of Python, including variables, data types, control structures, and functions. By mastering these basics, you'll be well-equipped to explore more advanced Python topics and applications."
               },
               {
-                "title": "Own Resource 2",
-                "description": "This is the description of resource 2",
-                "links": ["link1", "link2"],
-                "image": "https://via.placeholder.com/150",
+                "title": "Java Resource",
+                "description": "Master Java programming",
+                "links": [
+                  "https://docs.oracle.com/javase/tutorial/",
+                  "https://www.codecademy.com/learn/learn-java"
+                ],
+                "image": "https://i.pinimg.com/564x/53/c5/01/53c5019ce1b64d3464b3e4134ae1e2e2.jpg",
                 "videos": [
                   {
-                    "title": "video 1",
-                    "description": "This is the description of video 1",
-                    "link": "https://www.youtube.com/watch?v=6g3g0Q_XVb4",
-                    "further-details": "if video needs text"
+                    "title": "Java Programming for Beginners",
+                    "description": "Learn Java step by step",
+                    "link": "https://www.youtube.com/watch?v=grEKMHGYyns",
+                    "further-details": "Detailed Java programming tutorial"
                   }
                 ],
-                "text": "This is the text of resource 2"
+                "text": "Java is a powerful, object-oriented programming language used in a variety of applications, from web development to mobile apps. This resource covers the essential concepts of Java, including object-oriented principles, syntax, and basic program structures. With these foundational skills, you'll be prepared to tackle more complex Java projects and explore its extensive libraries and frameworks."
               }
             ]
           }
         ]
-      }
+      }      
     ]
   }
 ]
