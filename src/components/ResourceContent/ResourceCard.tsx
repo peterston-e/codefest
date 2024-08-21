@@ -24,8 +24,6 @@ const ResourceCard: React.FC<ResourceCardProps> = ({
 }) => {
   return (
     <div className="rounded-sm border border-stroke bg-white px-7.5 py-6 shadow-default dark:border-strokedark dark:bg-boxdark">
-      <div className="mt-4 flex items-end justify-between">
-        <div className="grid grid-cols-1">
           <h4 className="text-title-md font-bold text-primary">{title}</h4>
           <p className="text-md py-4 font-medium text-black dark:text-white">
             {description}
@@ -34,7 +32,7 @@ const ResourceCard: React.FC<ResourceCardProps> = ({
           <p className="py-4">
             {links.map((link, index) => (
               <div key={index}>
-                <a href={link} target="_blank">
+                <a href={link} target="_blank" className="text-blue-600">
                   {link}
                 </a>
                 <br></br>
@@ -54,7 +52,7 @@ const ResourceCard: React.FC<ResourceCardProps> = ({
                   {video.description}
                 </p>
                 <p>
-                  <a href={video.link}>{video.link}</a>
+                  <a href={video.link} target="_blank" className="text-blue-600">{video.link}</a>
                 </p>
                 <p className="text-md py-4 font-medium text-black dark:text-white">
                   {video["further-details"]}
@@ -68,8 +66,6 @@ const ResourceCard: React.FC<ResourceCardProps> = ({
               {resourceText}
             </p>
           </div>
-        </div>
-      </div>
     </div>
   );
 };
