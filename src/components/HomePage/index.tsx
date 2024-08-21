@@ -6,11 +6,11 @@ import courseImage from "./courseImage.jpg";
 const HomePage = () => {
   const modules = myData[0].modules;
   return (
-    <div className="container px-20">
+    <div className="container px-6 lg:px-10">
       <Breadcrumb pageName="HomePage" />
 
       {myData[0].title && (
-        <div className="my-8 text-7xl">Welcome to {myData[0].title}</div>
+        <div className="my-8 text-5xl sm:text-5xl md:text-6xl lg:text-7xl">Welcome to {myData[0].title}</div>
       )}
       {myData[0].description && (
         <div className="mb-8">{myData[0].description}</div>
@@ -19,7 +19,7 @@ const HomePage = () => {
       {modules && (
         <div>
           <ul>
-          <div className="mb-5.5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+          <div className="mb-5.5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-16">
             {modules.map((module, index) => (
               <li key={index}>
                 {myData[0].image && (
